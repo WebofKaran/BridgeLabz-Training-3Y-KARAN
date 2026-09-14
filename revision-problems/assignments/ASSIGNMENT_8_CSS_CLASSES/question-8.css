@@ -1,3 +1,81 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Space+Grotesk:wght@600;700&display=swap');
-:root { --ink: #252631; --paper: #f3f1f7; --pink: #f2b9c5; --teal: #95d6cc; --line: #c9c6cf; } * { box-sizing: border-box; } body { margin: 0; min-height: 100vh; background: var(--paper); color: var(--ink); font: 16px/1.5 'DM Sans', sans-serif; }.box-page { max-width: 1050px; margin: auto; padding: 8vh 5vw; } h1 { font: 700 clamp(3rem, 8vw, 6rem)/.88 'Space Grotesk', sans-serif; margin: 0 0 14px; }.eyebrow { color: #767581; font-size: .74rem; text-transform: uppercase; letter-spacing: .12em; font-weight: 700; }.comparison { display: flex; justify-content: center; gap: 55px; margin-top: 65px; padding: 35px 0; }.comparison article { width: 280px; padding: 24px; border: 7px solid var(--ink); }.comparison h2 { margin: 0 0 24px; font: 700 1.2rem 'Space Grotesk', sans-serif; }.content-box { box-sizing: content-box; background: var(--pink); }.border-box { box-sizing: border-box; background: var(--teal); }.sample { padding: 14px; border: 2px dashed var(--ink); font-weight: 700; margin-bottom: 20px; }.comparison p { font-size: .9rem; margin: 0; }
-@media (max-width: 700px) { .comparison { flex-direction: column; align-items: center; gap: 45px; } }
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Space+Grotesk:wght@600;700&display=swap");
+:root {
+  --ink: #252631;
+  --paper: #f3f1f7;
+  --pink: #f2b9c5;
+  --teal: #95d6cc;
+  --line: #c9c6cf;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--paper);
+  color: var(--ink);
+  font:
+    16px/1.5 "DM Sans",
+    sans-serif;
+}
+.box-page {
+  max-width: 1050px;
+  margin: auto;
+  padding: 8vh 5vw;
+}
+h1 {
+  font:
+    700 clamp(3rem, 8vw, 6rem)/0.88 "Space Grotesk",
+    sans-serif;
+  margin: 0 0 14px;
+}
+.eyebrow {
+  color: #767581;
+  font-size: 0.74rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  font-weight: 700;
+}
+.comparison {
+  display: flex;
+  justify-content: center;
+  gap: 55px;
+  margin-top: 65px;
+  padding: 35px 0;
+}
+.comparison article {
+  width: 280px;
+  padding: 24px;
+  border: 7px solid var(--ink);
+}
+.comparison h2 {
+  margin: 0 0 24px;
+  font:
+    700 1.2rem "Space Grotesk",
+    sans-serif;
+}
+.content-box {
+  box-sizing: content-box;
+  background: var(--pink);
+}
+.border-box {
+  box-sizing: border-box;
+  background: var(--teal);
+}
+.sample {
+  padding: 14px;
+  border: 2px dashed var(--ink);
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+.comparison p {
+  font-size: 0.9rem;
+  margin: 0;
+}
+@media (max-width: 700px) {
+  .comparison {
+    flex-direction: column;
+    align-items: center;
+    gap: 45px;
+  }
+}
