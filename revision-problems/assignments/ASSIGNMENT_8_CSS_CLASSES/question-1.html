@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pseudo-Classes | Assignment 8</title>
+  <link rel="stylesheet" href="question-1.css">
+</head>
+<body>
+  <header class="site-header">
+    <p class="eyebrow">Assignment 8 / Question 1</p>
+    <h1>Pseudo-class playground</h1>
+    <p>Interact with each example to see how CSS responds to user state and position.</p>
+  </header>
+  <main class="examples" aria-label="Pseudo-class examples">
+    <section class="example-card">
+      <span class="number">01</span>
+      <h2>:hover</h2>
+      <a class="hover-link" href="#hover">Move over this link</a>
+      <p>Changes appearance when the pointer rests over an element.</p>
+    </section>
+    <section class="example-card">
+      <span class="number">02</span>
+      <h2>:focus</h2>
+      <button class="focus-button" type="button">Focus this button</button>
+      <p>Highlights the control that receives keyboard or pointer focus.</p>
+    </section>
+    <section class="example-card">
+      <span class="number">03</span>
+      <h2>:active</h2>
+      <button class="active-button" type="button">Press and hold</button>
+      <p>Applies while an interactive element is being pressed.</p>
+    </section>
+    <section class="example-card">
+      <span class="number">04</span>
+      <h2>:nth-child()</h2>
+      <ul class="child-list"><li>First item</li><li>Second item</li><li>Third item</li><li>Fourth item</li></ul>
+      <p>Targets an element by its position among siblings.</p>
+    </section>
+  </main>
+  <footer><p>CSS state is visible without JavaScript.</p></footer>
+</body>
+</html>
