@@ -1,0 +1,138 @@
+ASSIGNMENT 1
+
+QUESTION 1: DIFFERENCE BETWEEN FRONTEND, BACKEND, AND FULL-STACK DEVELOPMENT
+
+Frontend Development:
+Frontend development creates the part of a website that users see and use. HTML, CSS, and JavaScript are common frontend technologies.
+
+Real-world example: The buttons, menus, product cards, and shopping cart screen on an online shopping website.
+
+Backend Development:
+Backend development manages the server, application logic, and data behind a website.
+
+Real-world example: Processing a login request and checking the user's details in a database.
+
+Full-Stack Development:
+Full-stack development includes both frontend and backend development.
+
+Real-world example: A developer builds the shopping page and also creates the server that processes customer orders.
+
+
+QUESTION 2: CLIENT-SERVER MODEL
+
+        Request
+Client -------------> Server
+  |                    |
+  |                    |
+  <--------------------
+        Response
+
+Client: A browser or device used by the user.
+Server: A computer or program that receives requests and sends responses.
+
+The client sends a request to the server. The server processes the request and returns a response.
+
+
+QUESTION 3: HOW A BROWSER REQUESTS AND DISPLAYS A WEB PAGE
+
+1. The user enters a website address in the browser.
+2. The browser finds the web server for that address.
+3. The browser sends an HTTP request to the server.
+4. The server returns HTML, CSS, images, and other resources.
+5. The browser reads and processes the files.
+6. The browser builds and displays the webpage on the screen.
+
+
+QUESTION 4: TOOLS REQUIRED FOR A WEB DEVELOPMENT ENVIRONMENT
+
+1. Code editor - VS Code is used to write and edit HTML, CSS, and JavaScript.
+2. Web browser - Chrome or Firefox is used to view and test webpages.
+3. Terminal - It is used to run commands and development tools.
+4. Git - It tracks changes and helps manage source code.
+5. Node.js - It runs JavaScript tools outside the browser.
+6. Live Server - It reloads a webpage while developing.
+
+
+QUESTION 5: WHAT IS A WEB SERVER?
+
+A web server is a computer or software that stores website files and sends them to browsers when requested.
+
+Examples of commonly used web servers:
+- Apache HTTP Server
+- Nginx
+- Microsoft Internet Information Services (IIS)
+- Node.js HTTP server
+
+
+QUESTION 6: ROLES IN A WEB PROJECT
+
+Frontend Developer:
+Builds the user interface and makes the website interactive and easy to use.
+
+Backend Developer:
+Builds server-side logic, APIs, authentication, and data processing.
+
+Database Administrator:
+Designs, secures, maintains, and backs up the databases used by the project.
+
+
+QUESTION 7: VS CODE SETUP FOR HTML, CSS, AND JAVASCRIPT DEVELOPMENT
+
+1. Download and install Visual Studio Code from the official website.
+2. Open VS Code and create a folder for web projects.
+3. Install the Live Server extension.
+4. Install JavaScript language support if needed.
+5. Create HTML, CSS, and JavaScript files in the project folder.
+6. Open the HTML file with Live Server to test it in a browser.
+
+Screenshot requirement:
+Take a screenshot showing VS Code with an HTML file, a CSS file, and a JavaScript file open. Attach that screenshot with the assignment.
+
+
+QUESTION 8: STATIC AND DYNAMIC WEBSITES
+
+Static Website:
+A static website shows fixed files and usually has the same content for every visitor.
+
+Example: A simple personal portfolio made with HTML.
+
+Dynamic Website:
+A dynamic website creates or changes content using server-side code and databases.
+
+Example: An online shopping website showing a user's cart and orders.
+
+
+QUESTION 9: FIVE WEB BROWSERS AND THEIR RENDERING ENGINES
+
+1. Google Chrome - Blink
+   Chrome uses the Chromium-based Blink rendering engine.
+
+2. Microsoft Edge - Blink
+   Modern Edge also uses the Chromium-based Blink engine.
+
+3. Mozilla Firefox - Gecko
+   Firefox uses Mozilla's independent Gecko rendering engine.
+
+4. Safari - WebKit
+   Safari uses Apple's WebKit rendering engine.
+
+5. Opera - Blink
+   Opera uses the Chromium-based Blink rendering engine.
+
+Rendering engines convert HTML and CSS into the visible webpage. Different engines may interpret some web features differently, so developers test websites in multiple browsers.
+
+
+QUESTION 10: BASIC WEB ARCHITECTURE FLOW
+
++----------+       Request        +----------+       Query        +----------+
+|  Client  | --------------------> |  Server  | ----------------> | Database |
+| Browser  |                       |          | <---------------- |          |
++----------+       Response       +----------+       Data         +----------+
+                                      |
+                                      | Calls
+                                      v
+                                  +--------+
+                                  |  APIs  |
+                                  +--------+
+
+The client sends a request to the server. The server can use APIs and a database to prepare a response for the client.

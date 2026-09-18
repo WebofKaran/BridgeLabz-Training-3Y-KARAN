@@ -1,0 +1,12 @@
+* { box-sizing: border-box; }
+body { margin: 0; background: #edf2ef; color: #24312e; font: 16px/1.5 Arial, sans-serif; } header, main, footer { max-width: 850px; margin: auto; padding: 42px 5vw 20px; } header p:first-child { color: #b94e3e; font-weight: bold; text-transform: uppercase; letter-spacing: .1em; } h1 { margin: 0; font-size: clamp(2.5rem, 7vw, 5rem); }
+/* Class and child combinator selectors style the panel and its direct heading. */
+.panel { background: white; padding: 28px; border: 1px solid #cbd8d1; } .panel > h2 { color: #b94e3e; } .items { padding-left: 22px; } .items > li { padding: 8px; }
+/* nth-child and hover pseudo-classes style list position and pointer state. */
+.items li:nth-child(odd) { background: #d9eee2; } .items li:hover { background: #f3d274; }
+/* Adjacent sibling and pseudo-element selectors add a note treatment. */
+.items + .note { border-left: 4px solid #b94e3e; padding-left: 12px; } .note::before { content: "Note: "; font-weight: bold; }
+/* Attribute selectors identify external, local, and text-input elements. */
+a[href^="https"] { color: #28745f; font-weight: bold; } a[href^="/"] { color: #b94e3e; } input[type="text"] { display: block; width: 100%; margin-top: 6px; padding: 12px; border: 2px solid #9bb8aa; }
+/* General sibling, hover, focus, and form layout selectors control interaction. */
+a + a { margin-left: 18px; } a:hover { text-decoration: none; } a:focus { outline: 3px solid #f3b34f; outline-offset: 3px; } .panel form { margin-top: 25px; } input[type="text"]:focus { border-color: #b94e3e; outline: none; } footer { border-top: 1px solid #cbd8d1; }

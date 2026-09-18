@@ -1,0 +1,7 @@
+* { box-sizing: border-box; }
+body { margin: 0; min-height: 100vh; color: white; font: 16px/1.5 Arial, sans-serif; }
+header, footer { position: fixed; z-index: 2; left: 0; right: 0; background: #172d35; padding: 16px 5vw; } header { top: 0; display: flex; justify-content: space-between; align-items: center; } footer { bottom: 0; text-align: center; } header h1, header p, footer p { margin: 0; }
+main { padding-top: 76px; padding-bottom: 64px; }
+section { min-height: 48vh; padding: 12vh 10vw; display: flex; flex-direction: column; justify-content: center; } section h2 { font-size: clamp(2rem, 6vw, 4rem); margin: 0 0 10px; }
+.linear { background: linear-gradient(120deg, #db6b45, #e9c45c, #4c9e91); background-attachment: fixed; }
+.radial { background: radial-gradient(circle at center, #f5d879, #bb5c70 55%, #39294d); }
