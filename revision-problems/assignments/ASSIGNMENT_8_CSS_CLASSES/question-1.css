@@ -1,5 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Space+Grotesk:wght@500;600;700&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;
+500;
+700&family=Space+Grotesk:wght@500;
+600;
+700&display=swap");
 :root {
   --ink: #172421;
   --paper: #f4f0e8;
@@ -17,8 +20,8 @@ body {
   background: var(--paper);
   color: var(--ink);
   font:
-    16px/1.5 "DM Sans",
-    sans-serif;
+  16px/1.5 "DM Sans",
+  sans-serif;
 }
 .site-header,
 footer {

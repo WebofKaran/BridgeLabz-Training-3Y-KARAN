@@ -1,10 +1,72 @@
-* { box-sizing: border-box; }
-body { margin: 0; min-height: 100vh; background: #e8f0ed; color: #1f302d; font: 16px/1.5 Arial, sans-serif; }
-.page { min-height: 100vh; display: flex; flex-direction: column; justify-content: center; padding: 7vh 5vw; }
-header { max-width: 850px; margin: 0 auto 35px; text-align: center; } header p:first-child { color: #c15b43; font-weight: bold; text-transform: uppercase; letter-spacing: .1em; } h1 { margin: 0; font-size: clamp(2.5rem, 7vw, 5rem); }
-.size-row { display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 18px; max-width: 1000px; margin: auto; }
-.size-row article { width: 30%; min-width: 210px; padding: 24px; overflow: hidden; } h2 { margin-top: 0; }
-.small { width: 220px !important; height: 150px; background: #efb56f; }
-.fluid { width: 30%; min-height: 190px; max-width: 320px; background: #8dc8be; }
-.viewport { width: 30%; height: 24vh; max-width: 300px; min-height: 160px; background: #9da9df; overflow: auto; }
-.long-text { width: 330px; }
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: #e8f0ed;
+  color: #1f302d;
+  font: 16px/1.5 Arial, sans-serif;
+}
+.page {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 7vh 5vw;
+}
+header {
+  max-width: 850px;
+  margin: 0 auto 35px;
+  text-align: center;
+}
+header p:first-child {
+  color: #c15b43;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+}
+h1 {
+  margin: 0;
+  font-size: clamp(2.5rem, 7vw, 5rem);
+}
+.size-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  max-width: 1000px;
+  margin: auto;
+}
+.size-row article {
+  width: 30%;
+  min-width: 210px;
+  padding: 24px;
+  overflow: hidden;
+}
+h2 {
+  margin-top: 0;
+}
+.small {
+  width: 220px !important;
+  height: 150px;
+  background: #efb56f;
+}
+.fluid {
+  width: 30%;
+  min-height: 190px;
+  max-width: 320px;
+  background: #8dc8be;
+}
+.viewport {
+  width: 30%;
+  height: 24vh;
+  max-width: 300px;
+  min-height: 160px;
+  background: #9da9df;
+  overflow: auto;
+}
+.long-text {
+  width: 330px;
+}

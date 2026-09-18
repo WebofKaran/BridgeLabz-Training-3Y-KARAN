@@ -1,2 +1,65 @@
-* { box-sizing: border-box; }
-body { margin: 0; background: #fff8ed; color: #302822; font: 16px/1.8 Georgia, serif; } .article-page { max-width: 760px; margin: auto; padding: 8vh 6vw; } header { border-bottom: 4px solid #d96d4f; margin-bottom: 40px; } header p { color: #b75a43; font: bold .78rem/1 Arial, sans-serif; letter-spacing: .12em; text-transform: uppercase; } h1 { margin: 15px 0 25px; font: bold clamp(2.8rem, 8vw, 6rem)/.95 Georgia, serif; letter-spacing: 1px; } article { font-size: 1.15rem; letter-spacing: .02em; text-align: left; } article p::first-line { letter-spacing: .05em; } .lead { font-size: 1.45rem; line-height: 1.55; } .lead::first-letter { color: #d96d4f; float: left; font: bold 4.5rem/.8 Georgia, serif; padding: 8px 8px 0 0; } mark { background: #f4c95d; color: #302822; padding: 0 4px; } strong { color: #bd4f3d; font-weight: bold; } em { color: #3e7c70; } .closing { border-left: 5px solid #3e7c70; padding-left: 18px; font-size: 1.05rem; text-align: right; }
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background: #fff8ed;
+  color: #302822;
+  font: 16px/1.8 Georgia, serif;
+}
+.article-page {
+  max-width: 760px;
+  margin: auto;
+  padding: 8vh 6vw;
+}
+header {
+  border-bottom: 4px solid #d96d4f;
+  margin-bottom: 40px;
+}
+header p {
+  color: #b75a43;
+  font: bold .78rem/1 Arial, sans-serif;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+}
+h1 {
+  margin: 15px 0 25px;
+  font: bold clamp(2.8rem, 8vw, 6rem)/.95 Georgia, serif;
+  letter-spacing: 1px;
+}
+article {
+  font-size: 1.15rem;
+  letter-spacing: .02em;
+  text-align: left;
+}
+article p::first-line {
+  letter-spacing: .05em;
+}
+.lead {
+  font-size: 1.45rem;
+  line-height: 1.55;
+}
+.lead::first-letter {
+  color: #d96d4f;
+  float: left;
+  font: bold 4.5rem/.8 Georgia, serif;
+  padding: 8px 8px 0 0;
+}
+mark {
+  background: #f4c95d;
+  color: #302822;
+  padding: 0 4px;
+}
+strong {
+  color: #bd4f3d;
+  font-weight: bold;
+}
+em {
+  color: #3e7c70;
+}
+.closing {
+  border-left: 5px solid #3e7c70;
+  padding-left: 18px;
+  font-size: 1.05rem;
+  text-align: right;
+}

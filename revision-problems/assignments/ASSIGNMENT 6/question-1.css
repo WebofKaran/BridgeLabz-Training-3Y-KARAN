@@ -1,15 +1,73 @@
-* { box-sizing: border-box; }
-body { margin: 0; font-family: Arial, sans-serif; color: #1d2939; background: #f4f7fb; }
-.site-header, .portfolio-main { display: flex; align-items: center; justify-content: space-between; }
-.site-header { padding: 24px 8%; background: #12355b; color: white; }
-.site-header h1 { margin: 0; }
-nav { display: flex; gap: 24px; }
-a { color: white; text-decoration: none; }
-.portfolio-main { gap: 48px; min-height: 70vh; padding: 60px 12%; }
-.about, .portrait { flex: 1; }
-.about { text-align: center; }
-.about h2 { font-size: 42px; margin: 10px 0; }
-.eyebrow { color: #d46b38; font-weight: bold; text-transform: uppercase; }
-.portrait img { display: block; width: 100%; border-radius: 12px; }
-footer { padding: 20px; text-align: center; background: #12355b; color: white; }
-@media (max-width: 700px) { .site-header, .portfolio-main { flex-direction: column; text-align: center; } .site-header { gap: 20px; } .portfolio-main { padding: 40px 8%; } }
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #1d2939;
+  background: #f4f7fb;
+}
+.site-header, .portfolio-main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.site-header {
+  padding: 24px 8%;
+  background: #12355b;
+  color: white;
+}
+.site-header h1 {
+  margin: 0;
+}
+nav {
+  display: flex;
+  gap: 24px;
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+.portfolio-main {
+  gap: 48px;
+  min-height: 70vh;
+  padding: 60px 12%;
+}
+.about, .portrait {
+  flex: 1;
+}
+.about {
+  text-align: center;
+}
+.about h2 {
+  font-size: 42px;
+  margin: 10px 0;
+}
+.eyebrow {
+  color: #d46b38;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.portrait img {
+  display: block;
+  width: 100%;
+  border-radius: 12px;
+}
+footer {
+  padding: 20px;
+  text-align: center;
+  background: #12355b;
+  color: white;
+}
+@media (max-width: 700px) {
+  .site-header, .portfolio-main {
+    flex-direction: column;
+    text-align: center;
+  }
+  .site-header {
+    gap: 20px;
+  }
+  .portfolio-main {
+    padding: 40px 8%;
+  }
+}

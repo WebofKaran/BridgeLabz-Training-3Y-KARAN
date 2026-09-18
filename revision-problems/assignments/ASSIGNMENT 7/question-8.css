@@ -1,2 +1,80 @@
-* { box-sizing: border-box; }
-body { margin: 0; background: #e9eef4; color: #263342; font: 16px/1.5 Arial, sans-serif; } .page { max-width: 1000px; margin: auto; padding: 7vh 5vw; } header p:first-child { color: #b45443; font-weight: bold; text-transform: uppercase; letter-spacing: .1em; } h1 { margin: 0 0 10px; font-size: clamp(2.5rem, 7vw, 5rem); } .model { width: min(440px, 100%); margin: 45px auto; padding: 26px; background: #edc66b; outline: 3px dashed #263342; outline-offset: 8px; text-align: center; } .margin-layer { padding: 25px; background: #efac8e; } .border-layer { padding: 16px; border: 12px solid #b45443; background: #d6e4c5; } .padding-layer { padding: 28px; background: #82b8b0; } .content-layer { padding: 26px 10px; background: #fff; font-weight: bold; } .model span { display: block; margin-bottom: 7px; font-size: .8rem; text-transform: uppercase; } .comparison { display: flex; justify-content: center; flex-wrap: wrap; gap: 25px; } .comparison article { width: 260px; padding: 24px; border: 8px solid #263342; min-height: 150px; } .default { box-sizing: content-box; background: #f4c3a9; } .border-box { box-sizing: border-box; background: #add8cf; } .comparison h2 { margin-top: 0; }
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  background: #e9eef4;
+  color: #263342;
+  font: 16px/1.5 Arial, sans-serif;
+}
+.page {
+  max-width: 1000px;
+  margin: auto;
+  padding: 7vh 5vw;
+}
+header p:first-child {
+  color: #b45443;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+}
+h1 {
+  margin: 0 0 10px;
+  font-size: clamp(2.5rem, 7vw, 5rem);
+}
+.model {
+  width: min(440px, 100%);
+  margin: 45px auto;
+  padding: 26px;
+  background: #edc66b;
+  outline: 3px dashed #263342;
+  outline-offset: 8px;
+  text-align: center;
+}
+.margin-layer {
+  padding: 25px;
+  background: #efac8e;
+}
+.border-layer {
+  padding: 16px;
+  border: 12px solid #b45443;
+  background: #d6e4c5;
+}
+.padding-layer {
+  padding: 28px;
+  background: #82b8b0;
+}
+.content-layer {
+  padding: 26px 10px;
+  background: #fff;
+  font-weight: bold;
+}
+.model span {
+  display: block;
+  margin-bottom: 7px;
+  font-size: .8rem;
+  text-transform: uppercase;
+}
+.comparison {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+.comparison article {
+  width: 260px;
+  padding: 24px;
+  border: 8px solid #263342;
+  min-height: 150px;
+}
+.default {
+  box-sizing: content-box;
+  background: #f4c3a9;
+}
+.border-box {
+  box-sizing: border-box;
+  background: #add8cf;
+}
+.comparison h2 {
+  margin-top: 0;
+}

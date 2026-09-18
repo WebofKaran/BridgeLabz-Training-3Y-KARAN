@@ -1,4 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Space+Grotesk:wght@600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;
+500;
+700&family=Space+Grotesk:wght@600;
+700&display=swap");
 :root {
   --ink: #252631;
   --paper: #f3f1f7;
@@ -15,8 +18,8 @@ body {
   background: var(--paper);
   color: var(--ink);
   font:
-    16px/1.5 "DM Sans",
-    sans-serif;
+  16px/1.5 "DM Sans",
+  sans-serif;
 }
 .box-page {
   max-width: 1050px;
@@ -25,8 +28,8 @@ body {
 }
 h1 {
   font:
-    700 clamp(3rem, 8vw, 6rem)/0.88 "Space Grotesk",
-    sans-serif;
+  700 clamp(3rem, 8vw, 6rem)/0.88 "Space Grotesk",
+  sans-serif;
   margin: 0 0 14px;
 }
 .eyebrow {
@@ -51,8 +54,8 @@ h1 {
 .comparison h2 {
   margin: 0 0 24px;
   font:
-    700 1.2rem "Space Grotesk",
-    sans-serif;
+  700 1.2rem "Space Grotesk",
+  sans-serif;
 }
 .content-box {
   box-sizing: content-box;

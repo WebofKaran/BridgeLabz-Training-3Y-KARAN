@@ -1,1 +1,76 @@
-* { box-sizing: border-box; } body { margin: 0; min-height: 100vh; display: flex; flex-direction: column; background: #e9f0ec; color: #243430; font: 16px/1.5 Arial, sans-serif; } .site-header { padding: 32px 5vw 0; background: #fff; border-bottom: 1px solid #c7d4cd; } .site-header > p { color: #bd5642; font-weight: bold; text-transform: uppercase; letter-spacing: .1em; } h1 { margin: 0 0 28px; font-size: clamp(2.5rem, 7vw, 5rem); } nav { display: flex; flex-wrap: wrap; gap: 8px; } nav a { padding: 13px 20px; border: 1px solid #a8beb3; color: #243430; text-decoration: none; transition: all .3s ease; } nav a:hover { background: #e9c65c; border-color: #243430; transform: translateY(-3px); } nav a.active { background: #243430; color: white; border-color: #243430; } main { flex: 1; max-width: 850px; width: 100%; margin: auto; padding: 12vh 5vw; } main h2 { font-size: clamp(2rem, 5vw, 4rem); } footer { padding: 18px 5vw; background: #243430; color: white; text-align: center; } footer p { margin: 0; } @media (max-width: 700px) { nav { flex-direction: column; } nav a { text-align: center; } }
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: #e9f0ec;
+  color: #243430;
+  font: 16px/1.5 Arial, sans-serif;
+}
+.site-header {
+  padding: 32px 5vw 0;
+  background: #fff;
+  border-bottom: 1px solid #c7d4cd;
+}
+.site-header > p {
+  color: #bd5642;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: .1em;
+}
+h1 {
+  margin: 0 0 28px;
+  font-size: clamp(2.5rem, 7vw, 5rem);
+}
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+nav a {
+  padding: 13px 20px;
+  border: 1px solid #a8beb3;
+  color: #243430;
+  text-decoration: none;
+  transition: all .3s ease;
+}
+nav a:hover {
+  background: #e9c65c;
+  border-color: #243430;
+  transform: translateY(-3px);
+}
+nav a.active {
+  background: #243430;
+  color: white;
+  border-color: #243430;
+}
+main {
+  flex: 1;
+  max-width: 850px;
+  width: 100%;
+  margin: auto;
+  padding: 12vh 5vw;
+}
+main h2 {
+  font-size: clamp(2rem, 5vw, 4rem);
+}
+footer {
+  padding: 18px 5vw;
+  background: #243430;
+  color: white;
+  text-align: center;
+}
+footer p {
+  margin: 0;
+}
+@media (max-width: 700px) {
+  nav {
+    flex-direction: column;
+  }
+  nav a {
+    text-align: center;
+  }
+}

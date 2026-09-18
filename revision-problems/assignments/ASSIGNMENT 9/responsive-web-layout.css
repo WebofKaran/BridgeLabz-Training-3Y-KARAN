@@ -1,6 +1,74 @@
-* { box-sizing: border-box; }
-body { min-height: 100vh; margin: 0; display: flex; flex-direction: column; font-family: Arial, sans-serif; color: #19232b; background: #eef4f3; }
-header { display: flex; justify-content: space-between; align-items: center; padding: 1.2rem 7%; background: #0e4f52; color: white; }nav { display: flex; gap: 1.2rem; }nav a { color: white; text-decoration: none; }
-main { flex: 1; padding: 5rem 7%; }.intro { max-width: 620px; }.eyebrow { color: #c35b32; font-weight: bold; }h1 { font-size: clamp(2rem, 5vw, 4rem); margin: .4rem 0 1rem; }.features { display: flex; gap: 1.25rem; margin-top: 3rem; }.features article { flex: 1; padding: 1.5rem; background: #f6ca70; border-radius: 8px; transition: transform .25s ease; }.features article:hover { transform: scale(1.04); }
-footer { padding: 1.2rem; text-align: center; background: #19232b; color: white; }
-@media (max-width: 750px) { .features { flex-direction: column; } header { align-items: flex-start; gap: 1rem; flex-direction: column; } }
+* {
+  box-sizing: border-box;
+}
+body {
+  min-height: 100vh;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  font-family: Arial, sans-serif;
+  color: #19232b;
+  background: #eef4f3;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 7%;
+  background: #0e4f52;
+  color: white;
+}
+nav {
+  display: flex;
+  gap: 1.2rem;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+main {
+  flex: 1;
+  padding: 5rem 7%;
+}
+.intro {
+  max-width: 620px;
+}
+.eyebrow {
+  color: #c35b32;
+  font-weight: bold;
+}
+h1 {
+  font-size: clamp(2rem, 5vw, 4rem);
+  margin: .4rem 0 1rem;
+}
+.features {
+  display: flex;
+  gap: 1.25rem;
+  margin-top: 3rem;
+}
+.features article {
+  flex: 1;
+  padding: 1.5rem;
+  background: #f6ca70;
+  border-radius: 8px;
+  transition: transform .25s ease;
+}
+.features article:hover {
+  transform: scale(1.04);
+}
+footer {
+  padding: 1.2rem;
+  text-align: center;
+  background: #19232b;
+  color: white;
+}
+@media (max-width: 750px) {
+  .features {
+    flex-direction: column;
+  }
+  header {
+    align-items: flex-start;
+    gap: 1rem;
+    flex-direction: column;
+  }
+}

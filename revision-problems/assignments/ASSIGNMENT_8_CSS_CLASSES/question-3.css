@@ -1,4 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Space+Grotesk:wght@600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;
+500;
+700&family=Space+Grotesk:wght@600;
+700&display=swap");
 :root {
   --ink: #18221e;
   --paper: #f1eee8;
@@ -12,8 +15,8 @@ body {
   background: var(--paper);
   color: var(--ink);
   font:
-    16px/1.5 "DM Sans",
-    sans-serif;
+  16px/1.5 "DM Sans",
+  sans-serif;
 }
 .gallery-header {
   max-width: 1180px;
@@ -29,8 +32,8 @@ body {
 }
 h1 {
   font:
-    700 clamp(3rem, 8vw, 7rem)/0.88 "Space Grotesk",
-    sans-serif;
+  700 clamp(3rem, 8vw, 7rem)/0.88 "Space Grotesk",
+  sans-serif;
   margin: 0 0 12px;
 }
 .gallery-header p:last-child {

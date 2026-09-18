@@ -1,4 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Space+Grotesk:wght@600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;
+500;
+700&family=Space+Grotesk:wght@600;
+700&display=swap");
 :root {
   --ink: #20232a;
   --paper: #f6f4ef;
@@ -14,8 +17,8 @@ body {
   background: var(--paper);
   color: var(--ink);
   font:
-    16px/1.5 "DM Sans",
-    sans-serif;
+  16px/1.5 "DM Sans",
+  sans-serif;
 }
 .site-header,
 footer {
@@ -32,8 +35,8 @@ footer {
 }
 h1 {
   font:
-    700 clamp(2.8rem, 7vw, 5.8rem)/0.9 "Space Grotesk",
-    sans-serif;
+  700 clamp(2.8rem, 7vw, 5.8rem)/0.9 "Space Grotesk",
+  sans-serif;
   margin: 0 0 14px;
 }
 .selector-grid {
@@ -51,40 +54,48 @@ h1 {
 }
 .selector-grid section h2 {
   font:
-    700 1.3rem "Space Grotesk",
-    sans-serif;
+  700 1.3rem "Space Grotesk",
+  sans-serif;
   margin: 0 0 14px;
 }
 .selector-grid section p {
   margin: 0;
-} /* Element selector styles every heading in the selector grid. */
+}
+/* Element selector styles every heading in the selector grid. */
 .selector-grid h2 {
   color: var(--blue);
-} /* Class selector highlights the reusable class panel. */
+}
+/* Class selector highlights the reusable class panel. */
 .class-example {
   background: var(--mint) !important;
-} /* ID selector gives one unique panel a strong border. */
+}
+/* ID selector gives one unique panel a strong border. */
 #id-example {
   border: 3px solid var(--ink);
-} /* Attribute selector identifies links by their href value. */
+}
+/* Attribute selector identifies links by their href value. */
 a[href^="https"] {
   color: var(--blue);
   font-weight: 700;
 }
 a[href^="/"] {
   color: #c54d37;
-} /* Descendant selector styles text anywhere inside a panel. */
+}
+/* Descendant selector styles text anywhere inside a panel. */
 .combinator-example p {
   color: #68717a;
-} /* Child selector targets only direct list children. */
+}
+/* Child selector targets only direct list children. */
 .combinator-example > ul {
   margin: 0;
   padding-left: 20px;
-} /* Adjacent selector styles the first paragraph after the list. */
+}
+/* Adjacent selector styles the first paragraph after the list. */
 ul + p {
   border-left: 3px solid var(--blue);
   padding-left: 10px;
-} /* General sibling selector marks later siblings. */
+}
+/* General sibling selector marks later siblings. */
 ul ~ p {
   font-size: 0.9rem;
 }

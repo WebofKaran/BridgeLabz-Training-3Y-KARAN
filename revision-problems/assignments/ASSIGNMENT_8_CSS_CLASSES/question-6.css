@@ -1,4 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Space+Grotesk:wght@600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;
+500;
+700&family=Space+Grotesk:wght@600;
+700&display=swap");
 :root {
   --ink: #e8eee8;
   --night: #18251f;
@@ -14,8 +17,8 @@ body {
   background: var(--night);
   color: var(--ink);
   font:
-    16px/1.5 "DM Sans",
-    sans-serif;
+  16px/1.5 "DM Sans",
+  sans-serif;
 }
 .animation-page {
   max-width: 1100px;
@@ -32,8 +35,8 @@ body {
 h1 {
   margin: 0 0 13px;
   font:
-    700 clamp(3rem, 8vw, 6rem)/0.88 "Space Grotesk",
-    sans-serif;
+  700 clamp(3rem, 8vw, 6rem)/0.88 "Space Grotesk",
+  sans-serif;
 }
 .motion-stage {
   display: grid;
@@ -53,8 +56,8 @@ h1 {
 .motion-card h2 {
   margin: 12px 0 0;
   font:
-    700 1.25rem "Space Grotesk",
-    sans-serif;
+  700 1.25rem "Space Grotesk",
+  sans-serif;
 }
 .motion-card p {
   margin: 0;
@@ -77,8 +80,8 @@ h1 {
 .color-word {
   align-self: center;
   font:
-    700 clamp(2rem, 5vw, 4rem) "Space Grotesk",
-    sans-serif;
+  700 clamp(2rem, 5vw, 4rem) "Space Grotesk",
+  sans-serif;
   animation: color-shift 4s ease-in-out 1s infinite alternate;
 }
 @keyframes slide {

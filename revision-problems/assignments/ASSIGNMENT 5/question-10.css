@@ -1,1 +1,160 @@
-* { box-sizing: border-box; } html { scroll-behavior: smooth; } body { margin: 0; font-family: Arial, sans-serif; color: #253237; background: #f4f1e9; }header { position: sticky; z-index: 3; top: 0; display: flex; justify-content: space-between; align-items: center; padding: 20px 7%; color: white; background: #253237; }.logo { color: white; font-weight: bold; letter-spacing: 2px; text-decoration: none; }nav { display: flex; gap: 22px; }nav a { color: white; text-decoration: none; }.hero { position: relative; min-height: 80vh; display: grid; place-items: center; text-align: center; color: white; background: linear-gradient(120deg, #253237cc, #b4563d99), url('https://picsum.photos/seed/ground/1500/900') center / cover; }.hero::before { content: ""; position: absolute; inset: 0; background: #25323722; }.hero div { position: relative; padding: 35px; outline: 2px solid #ffffff66; outline-offset: 10px; }.hero h1 { max-width: 700px; margin: 12px 0 28px; font-size: clamp(2.5rem, 7vw, 6rem); }.eyebrow { text-transform: uppercase; letter-spacing: 2px; }.hero a, button { padding: 13px 20px; color: white; background: #b4563d; border: 0; text-decoration: none; cursor: pointer; }.about, .services, .contact { max-width: 1100px; margin: auto; padding: 80px 7%; }.about { display: flex; align-items: center; gap: 8%; }.about > div, .about img { flex: 1; }.about img { width: 50%; border: 10px solid white; }.about h2, .services h2, .contact h2 { font-size: 2.5rem; }.about p { font-size: 1.2rem; line-height: 1.8; }.services { max-width: none; background: #dcebe2; }.service-list { max-width: 1100px; margin: auto; display: flex; gap: 22px; }.service-list article { flex: 1; padding: 25px; border: 1px solid #9db9aa; background: #ffffffaa; }.contact form { max-width: 600px; display: grid; gap: 14px; }.contact input, .contact textarea { padding: 14px; border: 1px solid #9db9aa; font: inherit; }.contact textarea { resize: vertical; }footer { padding: 25px; text-align: center; background: #253237; color: white; }.back-top { position: fixed; right: 20px; bottom: 20px; padding: 10px; color: white; background: #b4563d; text-decoration: none; border-radius: 50%; }@media (max-width: 700px) { header { flex-direction: column; gap: 14px; }.about, .service-list { flex-direction: column; align-items: stretch; }.about img { width: 100%; }.service-list { display: flex; } }
+* {
+  box-sizing: border-box;
+}
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  color: #253237;
+  background: #f4f1e9;
+}
+header {
+  position: sticky;
+  z-index: 3;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 7%;
+  color: white;
+  background: #253237;
+}
+.logo {
+  color: white;
+  font-weight: bold;
+  letter-spacing: 2px;
+  text-decoration: none;
+}
+nav {
+  display: flex;
+  gap: 22px;
+}
+nav a {
+  color: white;
+  text-decoration: none;
+}
+.hero {
+  position: relative;
+  min-height: 80vh;
+  display: grid;
+  place-items: center;
+  text-align: center;
+  color: white;
+  background: linear-gradient(120deg, #253237cc, #b4563d99), url('https://picsum.photos/seed/ground/1500/900') center / cover;
+}
+.hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: #25323722;
+}
+.hero div {
+  position: relative;
+  padding: 35px;
+  outline: 2px solid #ffffff66;
+  outline-offset: 10px;
+}
+.hero h1 {
+  max-width: 700px;
+  margin: 12px 0 28px;
+  font-size: clamp(2.5rem, 7vw, 6rem);
+}
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+.hero a, button {
+  padding: 13px 20px;
+  color: white;
+  background: #b4563d;
+  border: 0;
+  text-decoration: none;
+  cursor: pointer;
+}
+.about, .services, .contact {
+  max-width: 1100px;
+  margin: auto;
+  padding: 80px 7%;
+}
+.about {
+  display: flex;
+  align-items: center;
+  gap: 8%;
+}
+.about > div, .about img {
+  flex: 1;
+}
+.about img {
+  width: 50%;
+  border: 10px solid white;
+}
+.about h2, .services h2, .contact h2 {
+  font-size: 2.5rem;
+}
+.about p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+}
+.services {
+  max-width: none;
+  background: #dcebe2;
+}
+.service-list {
+  max-width: 1100px;
+  margin: auto;
+  display: flex;
+  gap: 22px;
+}
+.service-list article {
+  flex: 1;
+  padding: 25px;
+  border: 1px solid #9db9aa;
+  background: #ffffffaa;
+}
+.contact form {
+  max-width: 600px;
+  display: grid;
+  gap: 14px;
+}
+.contact input, .contact textarea {
+  padding: 14px;
+  border: 1px solid #9db9aa;
+  font: inherit;
+}
+.contact textarea {
+  resize: vertical;
+}
+footer {
+  padding: 25px;
+  text-align: center;
+  background: #253237;
+  color: white;
+}
+.back-top {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  padding: 10px;
+  color: white;
+  background: #b4563d;
+  text-decoration: none;
+  border-radius: 50%;
+}
+@media (max-width: 700px) {
+  header {
+    flex-direction: column;
+    gap: 14px;
+  }
+  .about, .service-list {
+    flex-direction: column;
+    align-items: stretch;
+  }
+  .about img {
+    width: 100%;
+  }
+  .service-list {
+    display: flex;
+  }
+}

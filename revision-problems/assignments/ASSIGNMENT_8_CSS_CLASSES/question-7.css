@@ -1,4 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Space+Grotesk:wght@600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;
+500;
+700&family=Space+Grotesk:wght@600;
+700&display=swap");
 :root {
   --ink: #213038;
   --paper: #e4f0e8;
@@ -15,8 +18,8 @@ body {
   background: linear-gradient(135deg, #e5f3eb, #f6efd8);
   color: var(--ink);
   font:
-    16px/1.5 "DM Sans",
-    sans-serif;
+  16px/1.5 "DM Sans",
+  sans-serif;
 }
 .ui-page {
   min-height: 100vh;
@@ -41,8 +44,8 @@ body {
 }
 h1 {
   font:
-    700 clamp(2.5rem, 6vw, 5rem)/0.92 "Space Grotesk",
-    sans-serif;
+  700 clamp(2.5rem, 6vw, 5rem)/0.92 "Space Grotesk",
+  sans-serif;
   margin: 0 0 14px;
 }
 .search-form {
@@ -78,8 +81,8 @@ select {
   background: var(--blue);
   color: white;
   font:
-    700 0.9rem "DM Sans",
-    sans-serif;
+  700 0.9rem "DM Sans",
+  sans-serif;
   cursor: pointer;
 }
 .search-row input:focus,

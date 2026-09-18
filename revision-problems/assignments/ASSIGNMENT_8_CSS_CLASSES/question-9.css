@@ -1,4 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Space+Grotesk:wght@600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;
+500;
+700&family=Space+Grotesk:wght@600;
+700&display=swap");
 :root {
   --ink: #20242b;
   --paper: #f5f1ea;
@@ -15,8 +18,8 @@ body {
   background: var(--paper);
   color: var(--ink);
   font:
-    16px/1.5 "DM Sans",
-    sans-serif;
+  16px/1.5 "DM Sans",
+  sans-serif;
 }
 .effects-page {
   max-width: 1050px;
@@ -33,8 +36,8 @@ body {
 h1 {
   margin: 0 0 14px;
   font:
-    700 clamp(3rem, 8vw, 6rem)/0.88 "Space Grotesk",
-    sans-serif;
+  700 clamp(3rem, 8vw, 6rem)/0.88 "Space Grotesk",
+  sans-serif;
 }
 .effects-row {
   display: flex;
@@ -54,17 +57,17 @@ h1 {
   color: var(--ink);
   cursor: pointer;
   transition:
-    transform 0.3s ease,
-    box-shadow 0.3s ease,
-    background 0.3s ease;
+  transform 0.3s ease,
+  box-shadow 0.3s ease,
+  background 0.3s ease;
 }
 .effect-card span {
   font-weight: 700;
 }
 .effect-card strong {
   font:
-    700 clamp(1.7rem, 4vw, 3.3rem) "Space Grotesk",
-    sans-serif;
+  700 clamp(1.7rem, 4vw, 3.3rem) "Space Grotesk",
+  sans-serif;
 }
 .effect-card small {
   font-size: 0.8rem;

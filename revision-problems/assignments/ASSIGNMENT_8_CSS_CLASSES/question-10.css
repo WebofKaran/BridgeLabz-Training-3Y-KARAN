@@ -1,5 +1,7 @@
-@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Space+Grotesk:wght@600;700&display=swap");
-
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;
+500;
+700&family=Space+Grotesk:wght@600;
+700&display=swap");
 :root {
   --ink: #23272d;
   --paper: #e8ece9;
@@ -7,21 +9,18 @@
   --yellow: #f0d25d;
   --line: #cdd4ce;
 }
-
 * {
   box-sizing: border-box;
 }
-
 body {
   margin: 0;
   min-height: 100vh;
   background: var(--paper);
   color: var(--ink);
   font:
-    16px/1.5 "DM Sans",
-    sans-serif;
+  16px/1.5 "DM Sans",
+  sans-serif;
 }
-
 .app-header {
   max-width: 1080px;
   margin: auto;
@@ -31,14 +30,12 @@ body {
   justify-content: space-between;
   border-bottom: 1px solid var(--line);
 }
-
 .app-header h1 {
   margin: 0;
   font:
-    700 1.5rem "Space Grotesk",
-    sans-serif;
+  700 1.5rem "Space Grotesk",
+  sans-serif;
 }
-
 .eyebrow {
   color: #727c74;
   text-transform: uppercase;
@@ -47,18 +44,15 @@ body {
   font-weight: 700;
   margin: 0 0 4px;
 }
-
 .app-header a {
   color: var(--ink);
   font-weight: 700;
 }
-
 .app-main {
   max-width: 1080px;
   margin: auto;
   padding: 7vh 5vw;
 }
-
 .note-card {
   display: flex;
   gap: clamp(25px, 6vw, 80px);
@@ -68,31 +62,26 @@ body {
   border: 1px solid white;
   box-shadow: 0 20px 45px #33443a20;
 }
-
 .note-copy {
   flex: 1;
 }
-
 .tag {
   color: #6f7d73;
   font-size: 0.8rem;
 }
-
 .note-card h2 {
   max-width: 480px;
   margin: 12px 0;
   font:
-    700 clamp(2rem, 4vw, 3.8rem)/0.98 "Space Grotesk",
-    sans-serif;
+  700 clamp(2rem, 4vw, 3.8rem)/0.98 "Space Grotesk",
+  sans-serif;
 }
-
 .note-card img {
   width: min(36%, 300px);
   aspect-ratio: 0.8;
   object-fit: cover;
   filter: saturate(0.75);
 }
-
 .note-card form {
   margin-top: 30px;
   display: flex;
@@ -100,13 +89,11 @@ body {
   gap: 8px;
   max-width: 450px;
 }
-
 .note-card label {
   font-size: 0.8rem;
   font-weight: 700;
   margin-top: 7px;
 }
-
 .note-card input,
 .note-card textarea {
   width: 100%;
@@ -117,43 +104,36 @@ body {
   font: inherit;
   resize: vertical;
 }
-
 .note-card input:focus,
 .note-card textarea:focus {
   outline: 3px solid var(--yellow);
   outline-offset: 2px;
 }
-
 .form-actions {
   display: flex;
   gap: 10px;
   margin-top: 10px;
 }
-
 .form-actions button {
   padding: 12px 18px;
   border: 0;
   font:
-    700 0.9rem "DM Sans",
-    sans-serif;
+  700 0.9rem "DM Sans",
+  sans-serif;
   cursor: pointer;
 }
-
 .primary {
   background: var(--blue);
   color: white;
 }
-
 .secondary {
   background: var(--yellow);
   color: var(--ink);
 }
-
 .form-actions button:hover {
   transform: translateY(-2px);
   box-shadow: 0 5px 10px #2b3a3020;
 }
-
 footer {
   max-width: 1080px;
   margin: auto;
@@ -162,13 +142,11 @@ footer {
   color: #68736a;
   font-size: 0.8rem;
 }
-
 @media (max-width: 650px) {
   .note-card {
     flex-direction: column;
     align-items: stretch;
   }
-
   .note-card img {
     width: 100%;
     max-height: 230px;
